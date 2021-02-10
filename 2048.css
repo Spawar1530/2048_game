@@ -1,0 +1,21 @@
+.score-container.score-title{
+	text-align: center;
+}
+
+.grid {
+display: flex; 
+flex-wrap: wrap; /*not to overlap squares over one another*/
+width: 400px;
+height: 400px;
+background-color: grey
+
+}
+
+.grid div {
+width: 100px;
+height: 100px;
+background-color: orange;
+font-size: 60px;
+text-align: center;
+font-weight: bold; 
+}
